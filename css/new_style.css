@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2015, 9:33:09 PM
+    Author     : LadyTaTa
+*/
+body {
+    font-size: 16px;
+    line-height: 1.3em;
+  background: #fdfdfd url("images/diagonal-noise.png") fixed !important;
+}
+nav.navbar.navbar-default {
+  border: 0;
+  margin-bottom: 0;
+}
+.wide_cont {
+  max-width: 1240px !important;
+  margin: 0px auto;
+  box-shadow: 0px 0px 3px #b4b4b4 !important;
+  background-color: #fff;
+}
+.topic-tag {
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  
+}
+.main-content {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.main-content h3{
+    color:#9966CC;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    background-color:#9966CC;
+   color: #fff;
+}
+p.notice{
+    color:red;
+    margin-top: 20px;
+}
+/*fdsfdfsffdsfs*/
+
+
+  .btn:focus
+  {
+   outline:0;
+   -webkit-outline:0;
+   -moz-outline:0;
+  }
+  .login-area {
+    background-position: 50% 50%;
+    background-image: url('../images/color-splash.jpg');
+    background-repeat:repeat;
+  }
+  .form-signin {
+    max-width: 280px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-signin .form-signin-heading, .form-signin {
+    margin-bottom: 10px;
+  }
+  .form-signin-heading{
+    margin-top: 50px;
+  }
+  .form-signin{
+      margin-bottom: 50px;
+  }
+  
+  .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: #000;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: rgb(0,0,0);
+    border-top:1px solid rgba(0,0,0,0.08);
+  }
+  .form-signin-heading {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  }
+
+  .footer{
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #ededed;
+      border-top: 1px solid #ededed;
+  }
+  .footer .address{
+      text-align: center;
+      line-height: 1.7em;
+      margin:30px auto;
+      
+  }
+  .footer .address a{
+      text-decoration: none;
+      color:#9966CC;
+  }
+  .form-area,.table-queue {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  form.form-submit label{
+      color:#9966CC;
+      line-height: 2.5em;
+  }
+.form-area .form-control {
+  width: 50%;
+  height: 40px;
+}
+  form.form-submit {
+  margin-left: 50px;
+}
+
+.border{
+        border-bottom: 1px solid #ededed;
+        border-top: 1px solid #ededed;
+}
+.address{
+     margin-bottom: 15px;
+}
+.nav>li>a {
+    padding: 15px 10px;
+}
+
+div#showData {
+   // padding-bottom: 50px;
+}
+ #no-more-tables td.child-detail {
+                padding-left: 3%;
+                line-height: 40px !important;
+                padding-right: 12%;
+        }
+.high-light-title{
+    background-color:#9966CC !important;
+    color:#fff;
+}
+
+/* ------ featurette */
+.featurette {
+    display: table;
+    width: 100%;
+    height:300px; 
+    vertical-align: middle;
+}
+.featurette-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.featurette .search {
+    padding: 3%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.no-margin-top {
+    margin-top: 0
+}
+.btn-violet{
+    background-color: #9966CC;
+    color:#fff;
+}
+/* ===table=== */
+@media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #no-more-tables table,
+        #no-more-tables thead,
+        #no-more-tables tbody,
+        #no-more-tables th,
+        #no-more-tables td,
+        #no-more-tables tr {
+        display: block;
+        }
+         
+        /* Hide table headers (but not display: none;, for accessibility) */
+        #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        }
+         
+        #no-more-tables tr { border: 1px solid #ccc; }
+          
+        #no-more-tables td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+        }
+         
+        #no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        }
+         
+        /*
+        Label the data
+        */
+        #no-more-tables td:before { content: attr(data-title); }
+        #no-more-tables td.child-detail {
+            padding-left: 1% !important;
+            line-height: 40px !important;
+        }
+}
+        

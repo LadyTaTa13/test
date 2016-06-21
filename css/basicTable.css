@@ -1,0 +1,100 @@
+@charset "utf-8";
+.ui-tbl{
+	border:1px solid #999;
+	border-collapse:collapse;
+	font-size:13px;
+	width:100%;
+}
+.ui-tbl td,.ui-tbl th{
+	border: 1px solid #3B5998;
+    padding: 2px;
+}
+.ui-tbl tr{
+	background-color:#f4f4f;
+}
+.ui-tbl tbody tr:hover{
+	background-color:#E9EAED;
+}
+.ui-tbl thead {
+	background-color: #627AAD;
+    color: #FFFFFF;
+}
+
+ui-tbl tbody {
+    background-color: #F9FAFB;
+    color: #333333;
+}
+ui-w100{
+	width:100%;
+}
+
+.ui-bt-container{
+		border:1px solid #333;
+		padding:2px;
+		border-radius:5px 5px 5px 5px;
+	}
+.ui-bt-body{
+	color:#666;
+	/*background-color:#ccc;		
+	height:40px;*/
+	width:100%;	
+	vertical-align:middle;
+	padding:2px;
+	cursor:pointer;		
+	text-align:center;
+	display:table-cell;
+}
+.ui-bt-body:hover{
+	/*background-color:#9CF;*/
+}
+.ui-bt-body div{
+	display:inline-block;
+	vertical-align:middle;
+}
+.ui-bt-body .ui-bt-text{
+	margin:0;
+	font-size:12px;
+	padding:2px;
+	font-weight:bold;
+}
+ul#menu li{
+	list-style:none;
+	display:inline-block;
+}
+.tablescroll_wrapper{
+	
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+.tablescroll
+{ font: 12px normal Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif; background-color:#fff; }
+
+.tablescroll td, 
+.tablescroll_wrapper,
+.tablescroll_head,
+.tablescroll_foot
+{ border:1px solid #ccc; }
+
+.tablescroll td
+{ padding:3px 5px; }
+
+.tablescroll_wrapper
+{ border-left:0; }
+
+.tablescroll_head
+{ font-size:11px; font-weight:bold; background-color:#eee; border-left:0; border-top:0; margin-bottom:0px; }
+
+.tablescroll thead td
+{ border-right:0; border-bottom:0; }
+
+.tablescroll tbody td
+{ border-right:0; border-bottom:0; }
+
+.tablescroll tbody tr.first td
+{ border-top:0; }
+
+.tablescroll_foot
+{ font-weight:bold; background-color:#eee; border-left:0; border-top:0; margin-top:3px; }
+
+.tablescroll tfoot td
+{ border-right:0; border-bottom:0; }
