@@ -23,7 +23,6 @@ function list_history($p){
 			while($arr2=$rs2->fetch_assoc()){
 				$opd_arr[$arr2['opd_id']]=$arr2;
 			}
-			
 			while($arr=$rs->fetch_assoc())
 			{
 				$rsx[$i]["opr_room"]="-";
